@@ -16,8 +16,8 @@ jobs:
       - name: Deploy
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_AKIASLMOTIS3BJ4FDDGZ }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_AH9Ynxq/y30+F3nwP5+WqNRMkub1+WFTCJeZ7qqR }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-2
 
       - name: Deploy
